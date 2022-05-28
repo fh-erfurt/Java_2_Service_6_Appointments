@@ -6,7 +6,7 @@ public class Location {
     private String Building;
     private String Room;
 
-    void Location(String _Building, String _Room){
+    Location(String _Building, String _Room){
         this.ID = count.incrementAndGet();
         if (_Building != null){ this.Building = _Building; }
         if (_Room != null){ this.Room = _Room; }

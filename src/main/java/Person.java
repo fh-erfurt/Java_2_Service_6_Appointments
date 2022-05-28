@@ -5,7 +5,7 @@ public class Person {
     private int ID;
     private String Name;
 
-    void Person(String _Name){
+    Person(String _Name){
         this.ID = count.incrementAndGet();
         this.Name = _Name;
     }

@@ -6,7 +6,7 @@ public class Course {
     private String Title;
     private int forSemester;
 
-    void Location(String _Title, int _forSemester){
+    Course(String _Title, int _forSemester){
         this.ID = count.incrementAndGet();
         this.Title = _Title;
         this.forSemester = _forSemester;

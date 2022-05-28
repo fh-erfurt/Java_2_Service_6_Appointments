@@ -15,7 +15,7 @@ public class Appointment {
     private Person Organizer;
 
 
-    void Location(String _Title, boolean _isPublic, int _Semester, LocalDateTime _Begin, LocalDateTime _End){
+    Appointment(String _Title, boolean _isPublic, int _Semester, LocalDateTime _Begin, LocalDateTime _End){
         this.ID = count.incrementAndGet();
         this.Title = _Title;
         this.isPublic = _isPublic;

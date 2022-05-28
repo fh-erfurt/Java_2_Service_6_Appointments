@@ -5,7 +5,7 @@ public class Faculty {
     private int ID;
     private String Title;
 
-    void Faculty(String _Title){
+    Faculty(String _Title){
         this.ID = count.incrementAndGet();
         this.Title = _Title;
     }
