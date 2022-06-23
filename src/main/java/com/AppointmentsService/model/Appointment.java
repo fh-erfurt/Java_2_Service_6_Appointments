@@ -1,4 +1,4 @@
-package AppointmentsService.model;
+package com.AppointmentsService.model;
 
 import java.time.LocalDateTime;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -11,9 +11,9 @@ public class Appointment {
     private int Semester;
     private LocalDateTime startDateTime;
     private LocalDateTime endDateTime;
-    private AppointmentsService.model.Course Course;
-    private AppointmentsService.model.Faculty Faculty;
-    private AppointmentsService.model.Location Location;
+    private com.AppointmentsService.model.Course Course;
+    private com.AppointmentsService.model.Faculty Faculty;
+    private com.AppointmentsService.model.Location Location;
     private Person Organizer;
 
 

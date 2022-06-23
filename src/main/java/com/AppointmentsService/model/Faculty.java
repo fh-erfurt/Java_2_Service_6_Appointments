@@ -1,25 +1,25 @@
-package AppointmentsService.model;
+package com.AppointmentsService.model;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class Person {
+public class Faculty {
     private static final AtomicInteger count = new AtomicInteger(0);
     private int ID;
-    private String Name;
+    private String Title;
 
-    Person(String _Name){
+    Faculty(String _Title){
         this.ID = count.incrementAndGet();
-        this.Name = _Name;
+        this.Title = _Title;
     }
 
     //---------------------------------------------------------
 
-    void setName(String _Name){
-        this.Name = _Name;
+    void setTitle(String _Title){
+        this.Title = _Title;
     }
 
     //---------------------------------------------------------
 
-    String getName(){  return this.Name; }
+    String getName(){  return this.Title; }
     int getID(){ return this.ID; }
 }

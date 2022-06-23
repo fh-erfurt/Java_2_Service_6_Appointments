@@ -1,4 +1,4 @@
-package AppointmentsService.model;
+package com.AppointmentsService.model;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
